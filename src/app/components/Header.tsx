@@ -26,7 +26,7 @@ export default function Header() {
             <img
               src={Favicon}
               alt="Moscow Cargo Group"
-              className="w-10 h-10 object-contain logo-brand"
+              className="w-8 h-8 object-contain logo-brand"
             />
             <div className="text-xl lg:text-2xl font-bold text-blue-600">
               Moscow Cargo Group
@@ -52,11 +52,11 @@ export default function Header() {
 
           {/* Phone */}
           <a
-            href="tel:+76972072478"
+            href="tel:+79998884686"
             className="hidden lg:flex items-center gap-2 text-blue-600 hover:text-blue-700 transition-colors"
           >
             <Phone className="w-5 h-5" />
-            <span className="font-semibold">+7 (697) 207-24-78</span>
+            <span className="font-semibold">+7 (999) 888-46-86</span>
           </a>
 
           {/* Mobile Menu Button */}
@@ -91,11 +91,11 @@ export default function Header() {
               </Link>
             ))}
             <a
-              href="tel:+76972072478"
+              href="tel:+79998884686"
               className="flex items-center gap-2 py-3 text-blue-600 font-semibold"
             >
               <Phone className="w-5 h-5" />
-              +7 (697) 207-24-78
+              +7 (999) 888-46-86
             </a>
           </nav>
         )}

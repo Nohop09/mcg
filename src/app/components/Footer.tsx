@@ -71,22 +71,22 @@ export default function Footer() {
             <h3 className="text-lg font-semibold text-white mb-4">Контакты</h3>
             <div className="flex flex-col gap-3">
               <a
-                href="tel:+76972072478"
+                href="tel:+79998884686"
                 className="flex items-center gap-2 text-sm hover:text-blue-400 transition-colors"
               >
                 <Phone className="w-4 h-4" />
-                +7 (697) 207-24-78
+                +7 (999) 888-46-86
               </a>
               <a
-                href="mailto:info@mosprolog.ru"
+                href="mailto:moscowcargogroup@mail.ru"
                 className="flex items-center gap-2 text-sm hover:text-blue-400 transition-colors"
               >
                 <Mail className="w-4 h-4" />
-                info@mosprolog.ru
+                moscowcargogroup@mail.ru
               </a>
               <div className="flex items-start gap-2 text-sm">
                 <MapPin className="w-4 h-4 mt-1 flex-shrink-0" />
-                <span>г. Москва, Зеленодольская улица, 3к2</span>
+                <span>г. Москва, волжский бульвар 12к1</span>
               </div>
             </div>
           </div>

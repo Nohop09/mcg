@@ -25,21 +25,37 @@ export default function Contacts() {
 
               {/* Contact Cards */}
               <div className="space-y-6">
-                {/* Phone */}
+                {/* Contact Phones */}
                 <div className="bg-white p-6 rounded-lg shadow-sm hover:shadow-md transition-shadow">
                   <div className="flex items-start gap-4">
                     <div className="w-12 h-12 bg-blue-100 rounded-lg flex items-center justify-center flex-shrink-0">
                       <Phone className="w-6 h-6 text-blue-600" />
                     </div>
-                    <div>
-                      <h3 className="font-semibold mb-2">Телефон</h3>
-                      <a
-                        href="tel:+76972072478"
-                        className="text-lg text-blue-600 hover:text-blue-700 transition-colors font-semibold"
-                      >
-                        +7 (697) 207-24-78
-                      </a>
-                      <p className="text-sm text-gray-600 mt-1">
+                    <div className="flex-1">
+                      <h3 className="font-semibold mb-3">Телефоны</h3>
+                      <div className="space-y-4">
+                        <div className="p-4 pb-0 rounded-lg">
+                          <p className="text-sm text-gray-600 mb-1">
+                            Александр
+                          </p>
+                          <a
+                            href="tel:+79998884686"
+                            className="text-xl text-blue-600 hover:text-blue-700 transition-colors font-semibold block"
+                          >
+                            +7 (999) 888-46-86
+                          </a>
+                        </div>
+                        <div className="p-4 pt-0 rounded-lg">
+                          <p className="text-sm text-gray-600 mb-1">Павел</p>
+                          <a
+                            href="tel:+79292674959"
+                            className="text-xl text-blue-600 hover:text-blue-700 transition-colors font-semibold block"
+                          >
+                            +7 (929) 267-49-59
+                          </a>
+                        </div>
+                      </div>
+                      <p className="text-sm text-gray-600 mt-3">
                         Работаем 24/7
                       </p>
                     </div>
@@ -55,10 +71,10 @@ export default function Contacts() {
                     <div>
                       <h3 className="font-semibold mb-2">Email</h3>
                       <a
-                        href="mailto:info@mosprolog.ru"
+                        href="mailto:moscowcargogroup@mail.ru"
                         className="text-lg text-blue-600 hover:text-blue-700 transition-colors"
                       >
-                        info@mosprolog.ru
+                        moscowcargogroup@mail.ru
                       </a>
                       <p className="text-sm text-gray-600 mt-1">
                         Ответим в течение часа
@@ -76,7 +92,7 @@ export default function Contacts() {
                     <div>
                       <h3 className="font-semibold mb-2">Адрес</h3>
                       <p className="text-gray-700">
-                        г. Москва, Зеленодольская улица, 3к2
+                        г. Москва, волжский бульвар 12к1
                       </p>
                       <p className="text-sm text-gray-600 mt-1">
                         Офис и складской комплекс
@@ -93,7 +109,7 @@ export default function Contacts() {
                 </h3>
                 <div className="flex flex-col sm:flex-row gap-4">
                   <a
-                    href="https://t.me/+76972072478"
+                    href="https://t.me/+79998884686"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="flex items-center justify-center gap-2 bg-[#0088cc] text-white px-6 py-3 rounded-lg hover:bg-[#0077b5] transition-colors font-semibold"
@@ -102,7 +118,7 @@ export default function Contacts() {
                     Telegram
                   </a>
                   <a
-                    href="https://wa.me/76972072478"
+                    href="https://wa.me/79998884686"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="flex items-center justify-center gap-2 bg-[#25D366] text-white px-6 py-3 rounded-lg hover:bg-[#20BA5A] transition-colors font-semibold"
@@ -188,7 +204,7 @@ export default function Contacts() {
             </div>
             <div className="mt-6 text-center">
               <p className="text-gray-700 mb-2">
-                <strong>г. Москва, Зеленодольская улица, 3к2</strong>
+                <strong>г. Москва, волжский бульвар 12к1</strong>
               </p>
               <p className="text-gray-600">
                 Удобная транспортная развязка, рядом с МКАД

@@ -7,9 +7,9 @@ export default function Tariffs() {
       name: "Внутри ТТК",
       price: "от 600 ₽",
       priceUnit: "за адрес",
-      minRate: "8000 ₽",
+      minRate: "9000 ₽",
       features: [
-        "Минимальная ставка: 8000 рублей",
+        "Минимальная ставка: 9000 рублей",
         "До 100 км — в рамках минимальной ставки",
         "Свыше 100 км — 30 руб/км",
         "До 1000 кг — в рамках минимальной ставки",
@@ -21,9 +21,9 @@ export default function Tariffs() {
       name: "Вне ТТК (включая МКАД)",
       price: "от 500 ₽",
       priceUnit: "за адрес",
-      minRate: "7000 ₽",
+      minRate: "8000 ₽",
       features: [
-        "Минимальная ставка: 7000 рублей",
+        "Минимальная ставка: 8000 рублей",
         "До 120 км — в рамках минимальной ставки",
         "Свыше 120 км — 30 руб/км",
         "До 1500 кг — в рамках минимальной ставки",
@@ -202,7 +202,7 @@ export default function Tariffs() {
               Оставить заявку
             </Link>
             <a
-              href="tel:+76972072478"
+              href="tel:+79998884686"
               className="inline-block bg-blue-700 text-white px-8 py-4 rounded-lg font-semibold hover:bg-blue-800 transition-colors border-2 border-white"
             >
               Позвонить сейчас
