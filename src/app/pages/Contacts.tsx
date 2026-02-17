@@ -193,7 +193,7 @@ export default function Contacts() {
           <div className="max-w-5xl mx-auto">
             <div className="bg-white p-4 rounded-lg shadow-lg">
               <iframe
-                src="https://yandex.ru/map-widget/v1/?ll=37.717671%2C55.713462&z=16&l=map&pt=37.717671,55.713462,pm2rdm"
+                src="https://yandex.ru/map-widget/v1/?ll=37.743328%2C55.713796&z=16&l=map&pt=37.743328,55.713796,pm2rdm"
                 width="100%"
                 height="400"
                 frameBorder="0"
