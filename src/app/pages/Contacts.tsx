@@ -109,7 +109,7 @@ export default function Contacts() {
                 </h3>
                 <div className="flex flex-col sm:flex-row gap-4">
                   <a
-                    href="https://t.me/+79998884686"
+                    href="https://t.me/+WEBqAwmddfgzOTky"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="flex items-center justify-center gap-2 bg-[#0088cc] text-white px-6 py-3 rounded-lg hover:bg-[#0077b5] transition-colors font-semibold"
